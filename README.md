@@ -30,6 +30,19 @@ $ ./wc sample.txt
 42      67      1337    sample.txt
 ```
 
+## Handling Input from Stdin:
+The program can also handle input from stdin, allowing you to use it in combination with other commands. For example:  
+```bash
+$ cat test.txt | ./wc [OPTION]
+```
+This command will read the content of test.txt via cat and provide word count statistics.
+
+## Handling Manual Input:
+You can also manually input text when running the program without a file. Simply run:  
+```bash
+$ ./wc
+```
+After running the command, you can type or paste the text manually, and the program will provide word count statistics once you press Ctrl + D (Unix/Linux) or Ctrl + Z (Windows) to signal the end of input.
 
 ## Build and Run
 To build the program, you can use a standard C compiler:
