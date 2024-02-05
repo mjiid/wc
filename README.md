@@ -17,10 +17,10 @@ $ ./wc [OPTION] [FILE]
 
 
 ## Options:
-**-c**: Outputs the number of bytes.
-**-l**: Outputs the number of lines.
-**-w**: Outputs the number of words.
-**-m**: Outputs the number of characters (handles multi-byte characters based on the locale).
+**-c**: Outputs the number of bytes.  
+**-l**: Outputs the number of lines.  
+**-w**: Outputs the number of words.  
+**-m**: Outputs the number of characters (handles multi-byte characters based on the locale).  
 
 
 ## Example:
